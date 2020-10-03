@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B6A17A5D25289CB6005644A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A17A5C25289CB6005644A3 /* AppDelegate.swift */; };
-		B6A17A5F25289CB6005644A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A17A5E25289CB6005644A3 /* SceneDelegate.swift */; };
 		B6A17A6125289CB6005644A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A17A6025289CB6005644A3 /* ViewController.swift */; };
 		B6A17A6425289CB6005644A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A17A6225289CB6005644A3 /* Main.storyboard */; };
 		B6A17A6625289CB8005644A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6A17A6525289CB8005644A3 /* Assets.xcassets */; };
 		B6A17A6925289CB8005644A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A17A6725289CB8005644A3 /* LaunchScreen.storyboard */; };
 		B6A17A7425289CB8005644A3 /* SampleARKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A17A7325289CB8005644A3 /* SampleARKitTests.swift */; };
 		B6A17A7F25289CB8005644A3 /* SampleARKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A17A7E25289CB8005644A3 /* SampleARKitUITests.swift */; };
+		B6A17A9C2528A745005644A3 /* ARPlaneAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A17A9B2528A745005644A3 /* ARPlaneAnchor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		B6A17A5925289CB6005644A3 /* SampleARKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleARKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A17A5C25289CB6005644A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6A17A5E25289CB6005644A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B6A17A6025289CB6005644A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6A17A6325289CB6005644A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6A17A6525289CB8005644A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		B6A17A7A25289CB8005644A3 /* SampleARKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleARKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A17A7E25289CB8005644A3 /* SampleARKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleARKitUITests.swift; sourceTree = "<group>"; };
 		B6A17A8025289CB8005644A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6A17A9B2528A745005644A3 /* ARPlaneAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPlaneAnchor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				B6A17A5C25289CB6005644A3 /* AppDelegate.swift */,
-				B6A17A5E25289CB6005644A3 /* SceneDelegate.swift */,
 				B6A17A6025289CB6005644A3 /* ViewController.swift */,
 				B6A17A6225289CB6005644A3 /* Main.storyboard */,
 				B6A17A6525289CB8005644A3 /* Assets.xcassets */,
 				B6A17A6725289CB8005644A3 /* LaunchScreen.storyboard */,
 				B6A17A6A25289CB8005644A3 /* Info.plist */,
+				B6A17A9B2528A745005644A3 /* ARPlaneAnchor.swift */,
 			);
 			path = SampleARKit;
 			sourceTree = "<group>";
@@ -260,7 +260,7 @@
 			files = (
 				B6A17A6125289CB6005644A3 /* ViewController.swift in Sources */,
 				B6A17A5D25289CB6005644A3 /* AppDelegate.swift in Sources */,
-				B6A17A5F25289CB6005644A3 /* SceneDelegate.swift in Sources */,
+				B6A17A9C2528A745005644A3 /* ARPlaneAnchor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

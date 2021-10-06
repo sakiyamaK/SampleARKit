@@ -56,7 +56,6 @@
 		B6BE9417270E01B40057A4FE /* Root.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Root.storyboard; sourceTree = "<group>"; };
 		B6BE9419270E01C10057A4FE /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		B6BE941C270E02E70057A4FE /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
-		B6BE9423270E0D770057A4FE /* dragon.stl */ = {isa = PBXFileReference; lastKnownFileType = file; path = dragon.stl; sourceTree = "<group>"; };
 		B6BE9424270E0D880057A4FE /* dragon.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = dragon.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,7 +141,6 @@
 		B6BE9416270E01700057A4FE /* First */ = {
 			isa = PBXGroup;
 			children = (
-				B6BE9423270E0D770057A4FE /* dragon.stl */,
 				B6BE9424270E0D880057A4FE /* dragon.scn */,
 				B6A17A9B2528A745005644A3 /* ARPlaneAnchor.swift */,
 				B6A17A6025289CB6005644A3 /* FirstViewController.swift */,
